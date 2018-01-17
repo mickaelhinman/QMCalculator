@@ -12,12 +12,6 @@ class ViewController: UIViewController {
     
     var calculationArray: [EquationElement] = []
     
-    //[numberOperator(5), EquationElement(.ADD), EquationElement(0.01), EquationElement(.MULTIPLY), EquationElement(.COSQ), EquationElement(5), EquationElement(1)]
-    
-    //0.785 8
-    //0.3925 16
-    //0.19625 32
-    
     @IBOutlet weak var basisStates: UITextField!
     
     @IBOutlet weak var display: UILabel!
@@ -349,7 +343,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //print(cosq(3, 1.0, 1.0).matrix)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
