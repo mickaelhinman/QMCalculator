@@ -108,15 +108,6 @@ class Graph: UIView {
         CGContextSetLineWidth(context, CGFloat(plotLineThickness))
         
         let colorSpace = CGColorSpaceCreateDeviceRGB()
-        //let components: [CGFloat] = [0.0, 0.0, 0.0, 1.0]
-        //let color = CGColorCreate(colorSpace, components)
-        //CGContextSetStrokeColorWithColor(context, color)
-        
-        
-        //CGContextMoveToPoint(context, 30, 0)
-        //CGContextAddLineToPoint(context, 30, 470)
-        //CGContextMoveToPoint(context, 0, CGFloat(xAxisOrigin))
-        //CGContextAddLineToPoint(context, screenWidth, CGFloat(xAxisOrigin))
         
         let componentsPoints: [CGFloat] = [0.0, 0.0, 0.0, 1.0]
         let colorPoints = CGColorCreate(colorSpace, componentsPoints)
